@@ -76,7 +76,7 @@ li a:hover:not(.active) {
 }
 
 .project-tile {
-    background-color: var(--Yellow);
+    background-color: #1e1f1f;
     padding: 1rem;
 }
 .project-tile a {
@@ -88,8 +88,11 @@ li a:hover:not(.active) {
 }
 .p-title {
     display: flex;
-    color: black;
+    color: white;
 }
 .p-title p {
     margin: 0 .5rem;
+}
+.bracket {
+    color: var(--Yellow);
 }
